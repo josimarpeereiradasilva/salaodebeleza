@@ -1,0 +1,46 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+}
+
+.input-light {
+  background-color: #f9fafb;
+  border: 1px solid #d1d5db;
+  color: #000000;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.input-light:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+.input-light::placeholder {
+  color: #6b7280;
+}
+
+.btn-primary {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1f2937;
+}
+
+/* Estilizar scrollbar */
+::-webkit-scrollbar {
+  background: #f3f4f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}
